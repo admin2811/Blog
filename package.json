@@ -13,6 +13,8 @@
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "axios": "^1.7.9",
+    "docx-preview": "^0.3.4",
+    "docx-templates": "^4.13.0",
     "mongoose": "^8.10.0",
     "my-blog": "file:",
     "next": "15.1.6",

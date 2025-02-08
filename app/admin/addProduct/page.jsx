@@ -64,7 +64,7 @@ const page = () => {
                 <input onChange={(e) => setImage(e.target.files[0])} type="file" id="image" hidden required/>
                 
                 <p className='text-xl mt-4'>Upload file (PDF, DOC, etc.)</p>
-                <input onChange={(e) => setFile(e.target.files[0])} type="file" className='w-full sm:w-[500px] mt-4 px-4 py-3 border' accept=".pdf,.doc,.docx" required/>
+                <input onChange={(e) => setFile(e.target.files[0])} type="file" className='w-full sm:w-[500px] mt-4 px-4 py-3 border' accept=".pdf,.doc,.docx"/>
                 
                 <p className='text-xl mt-4'>Blog title</p>
                 <input name='title' onChange={onChangeHandler} value={data.title} className="w-full sm:w-[500px] mt-4 px-4 py-3 border" type="text" placeholder="Type here" required/>
