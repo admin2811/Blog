@@ -26,8 +26,8 @@ const Header = () => {
          <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-solid border-black shadow-custom-black'>Get Started <Image src={assets.arrow} alt="Arrow icon" /></button>       
        </div>
        <div className='text-center my-8'>
-        <h1 className='font-medium text-3xl sm:text-5xl'>Latest Blogs</h1>
-        <p className='mt-10 max-w-[740px] mx-auto text-xs sm:text-base'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        <h1 className='font-medium text-3xl sm:text-5xl'>Minh Blogs</h1>
+        <p className='mt-10 max-w-[740px] mx-auto text-xs sm:text-base'>Tôi là Nguyễn Đức Minh là sinh viên năm cuối của Trường Đại học Thuỷ Lợi , Khoa Công Nghệ Thông tin và hiện tại tôi cũng đang là một lập trình viên FullStack Developer. Hãy theo dõi các thông tin blog của mình nhé.</p>
         <form onSubmit={onSubmitHandler} className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-custom-black' action="">
             <input onChange={(e) => setEmail(e.target.value)} value={email} type='email' placeholder="Enter your Email" className='pl-4 outline-none'/>
             <button type='submit' className='border-l border-black py-4 px-4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
